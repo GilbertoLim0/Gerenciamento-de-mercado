@@ -17,25 +17,25 @@ function main() {
 )
     switch(prompt()) {
         case 1: {
-
+            addNewProduct()
         }
         case 2: {
-
+            readAllproducts()
         }
         case 3: {
-
+            readProductByname()
         }
         case 4: {
-
+            updateProductInfo()
         }
         case 5: {
-
+            productIO()
         }
         case 6: {
-
+            deleteProduct()
         }
         case 0: {
-
+            systemOut()
         }
         
     }
@@ -45,6 +45,8 @@ function addNewProduct() {}
 function readAllproducts() {}
 function readProductByname() {}
 function updateProductInfo() {}
-function addNewProduct() {}
-function addNewProduct() {}
-function addNewProduct() {}
+function productIO() {}
+function deleteProduct() {}
+function systemOut() {
+    
+}
