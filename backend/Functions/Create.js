@@ -1,5 +1,6 @@
-export function createProducts(novoNome, novaMarca, novoPreco, novaCategoria, novaQuantidade) {
+export function createProducts(idNew,novoNome, novaMarca, novoPreco, novaCategoria, novaQuantidade) {
     produto = {
+        id: idNew,
         nome: novoNome,
         marca: novaMarca,
         preco: novoPreco,
