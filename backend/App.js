@@ -48,5 +48,5 @@ function updateProductInfo() {}
 function productIO() {}
 function deleteProduct() {}
 function systemOut() {
-    
+    process.exit(0);
 }
