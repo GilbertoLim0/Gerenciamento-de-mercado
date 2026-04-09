@@ -1,4 +1,5 @@
 import promptSync from 'prompt-sync';
+import { bancoDeDados } from "/Storage"
 const prompt = promptSync({sigint: true})()
 function main() {
     console.log(
